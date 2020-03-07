@@ -12,13 +12,19 @@ img {
 
 
 button {
-  border: white;
   background-color: #EDECEC;
-  color: #857E7E;
+  border-color: white;
+  color: #686868;
   border-radius: 4px;
   font-size: 14px;
   margin: 16px;
   padding: 10px 12px 10px 12px;
   text-align: center;
   width: 150px;
+}
+
+button:hover {
+  border-color: darkgrey;
+  color: black;
+  cursor: pointer;
 }
