@@ -3,7 +3,6 @@
 <head>
 <meta  charset="utf-8">
   <link href="./styling.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat|Oxanium&display=swap" rel="stylesheet">
 
   <title>
     Google | Your favourite search bar
@@ -13,33 +12,36 @@
 <body>
 <nav>
   <ul>
-    <li>About</li>
-    <li>Store</li>
-    <li>Gmail</li>
-    <li>Images</li>
+    <li class="boxleft">About</li>
+    <li class="boxleft">Store</li>
+    <li class="boxright">Gmail</li>
+    <li class="boxright">Images</li>
   </ul>
 </nav>
 
+<div class="LogoSearchWrapper">
+  <div>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
+  </div>
+  <div>
+    <form>
+      <input type="text" class = "formsearchbar" placeholder="">
+    </form>
+  </div>
+  <div class = "ButtonsBox">
+    <button type="button" name="Search">Google Search</button>
+    <button type="button" name="Lucky">I'm Feeling Lucky</button>
+  </div>
+</div>
 
-<img id = "Logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
-
-<form>
-<input type="text" placeholder="">
-
-</form>
-
-
-<button type="button" name="Search">Google Search</button>
-<button type="button" name="Lucky">I'm feeling lukcy</button>
-
-<footer>
+<footer class="footer">
   <ul>
-    <li>Advertising</li>
-    <li>Business</li>
-    <li>How search works</li>
-    <li>Privacy</li>
-    <li>Terms</li>
-    <li>Settings</li>
+    <li class="footboxleft" >Advertising</li>
+    <li class="footboxleft">Business</li>
+    <li class="footboxleft">How search works</li>
+    <li class="footboxright">Privacy</li>
+    <li class="footboxright">Terms</li>
+    <li class="footboxright">Settings</li>
   </ul>
 </footer>
 
